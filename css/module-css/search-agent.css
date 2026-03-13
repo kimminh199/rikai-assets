@@ -1,0 +1,183 @@
+
+/** search-agent **/
+
+.search-agent{
+  position: relative;
+}
+
+.search-agent .inner-container{
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  background: #2C66BD;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 43px 50px;
+  margin-top: -75px;
+}
+
+.search-agent .agent-form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-agent .agent-form .form-group{
+  position: relative;
+  min-width: 307px;
+  margin-bottom: 0px;
+  padding-right: 35px;
+}
+
+.search-agent .agent-form .form-group label{
+  position: relative;
+  display: block;
+  font-size: 17px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.search-agent .agent-form .form-group .select-box{
+  position: relative;
+  min-height: 31px;
+}
+
+.search-agent .agent-form .form-group input[type='text'],
+.search-agent .agent-form .form-group .nice-select{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 31px;
+  font-size: 17px;
+  color: rgba(217, 217, 217, 0.70);
+}
+
+.search-agent .agent-form .form-group .nice-select:before{
+  position: absolute;
+  content: '\e911';
+  font-family: 'icomoon';
+  top: 0px;
+  right: 0px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.search-agent .agent-form .form-group .nice-select .list li{
+  color: var(--text-color);
+}
+
+.search-agent .agent-form .form-group:before{
+  position: absolute;
+  content: '';
+  background: rgba(217, 217, 217, 0.70);
+  height: 62px;
+  width: 1px;
+  top: 3px;
+  right: 0px;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .search-agent .agent-form .form-group{
+  padding-right: 0px;
+  padding-left: 35px;
+}
+
+.rtl .search-agent .agent-form .form-group:before{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .search-agent .agent-form .form-group .nice-select:before{
+  right: inherit;
+  left: 0px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .search-agent .agent-form{
+    display: block;
+  }
+
+  .search-agent .agent-form .form-group{
+    margin-bottom: 30px;
+  }
+
+  .search-agent .agent-form .form-group:before{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .search-agent .inner-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+
+/** page-title **/
+
+.page-title{
+  position: relative;
+  padding: 120px 0px;
+}
+
+.page-title .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-title h1{
+  font-size: 65px;
+  line-height: 75px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.page-title .bread-crumb{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+
+.page-title .bread-crumb li{
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.page-title .bread-crumb li a{
+  display: inline-block;
+  color: #fff;
+}
+
+.page-title .bread-crumb li a:hover{
+  color: var(--theme-color) !important;
+}
+
+.page-title .bread-crumb li:before{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 1px;
+  height: 13px;
+  top: 7px;
+  right: -16px;
+}
+
+.page-title .bread-crumb li:last-child:before{
+  display: none;
+}
+
+.page-title .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-title .bg-layer:before{
+  position: absolute;
+  content: '';
+  background: #15376A;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+}
+
+.page-title .bg-color{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(150, 128, 239, 0.10);
+}
+
+.page-title.dark-section h1{
+  color: var(--title-color);
+}
+
+.page-title.dark-section .bread-crumb li,
+.page-title.dark-section .bread-crumb li a{
+  color: var(--title-color);
+}
+
+.page-title.dark-section .bread-crumb li:before{
+  background: #9680EF;
+}
+
+.page-title .shape-layer .shape-1{
+  position: absolute;
+  left: 560px;
+  top: 88px;
+  width: 68px;
+  height: 74px;
+  background-repeat: no-repeat;
+}
+
+.page-title .shape-layer .shape-2{
+  position: absolute;
+  right: 85px;
+  bottom: 65px;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+
+/** rtl-css **/
+
+.rtl .page-title .bread-crumb li:before{
+  right: inherit;
+  left: -16px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .page-title{
+    padding: 80px 0px;
+  }
+
+  .page-title h1{
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

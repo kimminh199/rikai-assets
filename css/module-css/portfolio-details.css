@@ -1,0 +1,190 @@
+
+/** portfolio-details **/
+
+.portfolio-details{
+  position: relative;
+}
+
+.portfolio-details .content-one .image-box{
+  position: relative;
+  display: block;
+  border-radius: 12px;
+}
+
+.portfolio-details .content-one .image-box img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.portfolio-details .content-one .content-box{
+  position: relative;
+  display: block;
+}
+
+.portfolio-details .content-one .content-box .single-item{
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.portfolio-details .content-one .content-box h3{
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 18px;
+}
+
+.portfolio-details .content-one .content-box .info-list h5{
+  position: relative;
+  display: block;
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.portfolio-details .content-one .content-box .info-list li{
+  margin-bottom: 40px;
+}
+
+.portfolio-details .content-one .content-box .info-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.portfolio-details h2{
+  position: relative;
+  display: block;
+  font-size: 37px;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+
+.portfolio-details .content-two .image-box .image{
+  position: relative;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.portfolio-details .content-two .image-box .image img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.portfolio-details .content-three{
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.portfolio-details .nav-btn{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-details .nav-btn a{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.portfolio-details .nav-btn a:hover{
+  color: var(--theme-color);
+}
+
+.portfolio-details .nav-btn a i{
+  font-size: 35px;
+  line-height: 34px;
+}
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .portfolio-details .content-one .content-box{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  br{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .portfolio-details{
+    padding: 70px 0px 65px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .portfolio-details h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

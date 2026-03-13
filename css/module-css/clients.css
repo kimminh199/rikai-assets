@@ -1,0 +1,117 @@
+
+/** clients-section **/
+
+.clients-section{
+  position: relative;
+}
+
+.clients-section .clients-list{
+  position: relative;
+  margin: 0px -15px;
+}
+
+.clients-section .clients-list li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 20%;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+
+.clients-section .clients-list .clients-box a{
+  position: relative;
+  display: inline-block;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+}
+
+.clients-section .clients-list .clients-box a:hover{
+  border-color: var(--theme-color);
+}
+
+
+/** rtl-css **/
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .clients-section .clients-list li{
+    width: 33.333%;
+  }
+
+  .clients-section{
+    padding: 65px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .clients-section .clients-list li{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .clients-section .clients-list{
+    margin: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

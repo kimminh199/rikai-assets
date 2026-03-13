@@ -1,0 +1,269 @@
+
+/** working-section **/
+
+.working-section{
+  position: relative;
+}
+
+.working-section .title-inner .image-box img{
+  position: relative;
+  float: right;
+  max-width: none;
+}
+
+.working-section .sec-title h3{
+  display: block;
+  font-size: 28px;
+  line-height: 39px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.working-section .sec-title p{
+  margin-bottom: 50px;
+}
+
+.working-section .content-box{
+  margin: 0px -20px;
+}
+
+.working-section .working-block{
+  padding: 0px 35px;
+}
+
+.working-block-one{
+  position: relative;
+  margin-top: 65px;
+  padding-bottom: 70px;
+}
+
+.working-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 45px 0px rgba(0, 0, 0, 0.05);
+  padding: 40px 40px 48px 40px;
+  z-index: 1;
+  transition: all 500ms ease;
+}
+
+.working-block-one .inner-box:before{
+  position: absolute;
+  content: '';
+  background: linear-gradient(286.26deg, #9680EF -28.66%, #15095E 46.09%);
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  transform: scale(0.9,0.9);
+  opacity: 0;
+  z-index: -1;
+  transition: all 500ms ease;
+}
+
+.working-block-one .inner-box:hover:before{
+  transform: scale(1,1);
+  opacity: 1;
+}
+
+.working-block-one .inner-box .icon-box{
+  position: absolute;
+  display: inline-block;
+  width: 107px;
+  height: 107px;
+  line-height: 89px;
+  background: #15095E;
+  text-align: center;
+  border: 9px solid #EDEDED;
+  border-radius: 50%;
+  left: 40px;
+  top: -65px;
+  font-size: 50px;
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.working-block-one .inner-box:hover .icon-box{
+  background: var(--theme-color);
+}
+
+.working-block-one .inner-box .count-text{
+  position: relative;
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 30px;
+  transition: all 500ms ease;
+}
+
+.working-block-one .inner-box:hover .count-text{
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.40);
+}
+
+.working-block-one .inner-box h3{
+  display: block;
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 14px;
+}
+
+.working-block-one .inner-box h3 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.working-block-one .inner-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.working-block-one .inner-box:hover h3 a,
+.working-block-one .inner-box:hover p{
+  color: #fff;
+}
+
+.working-block-one .inner-box p{
+  position: relative;
+  transition: all 500ms ease;
+}
+
+.working-section .content-box .shape-box .shape-1{
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  width: 75px;
+  height: 35px;
+  background-repeat: no-repeat;
+  margin-left: -38px;
+}
+
+.working-section .content-box .shape-box .shape-2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 75px;
+  height: 35px;
+  background-repeat: no-repeat;
+  margin-left: -38px;
+  margin-top: -17px;
+}
+
+.working-section .content-box .shape-box .shape-3{
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  width: 75px;
+  height: 35px;
+  background-repeat: no-repeat;
+  margin-left: -38px;
+}
+
+
+/** rtl-css **/
+
+.rtl .working-section .content-box{
+  padding-left: 0px;
+  padding-right: 150px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+  .working-section .content-box{
+    padding-left: 0px;
+  }
+
+  .rtl .working-section .content-box{
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .working-section .title-inner .image-box img{
+    float: none;
+  }
+
+  .working-section .working-block{
+    margin-top: 0px;
+  }
+
+  .working-section .title-inner{
+    margin-bottom: 40px;
+  }
+
+  .working-section .content-box .shape-box{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .working-section{
+    padding: 65px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .working-section .title-inner .image-box img{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

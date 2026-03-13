@@ -1,0 +1,285 @@
+
+/** skills-section **/
+
+.skills-section{
+  position: relative;
+}
+
+.skills-section .outer-container{
+  position: relative;
+  max-width: 1675px;
+  width: 100%;
+  margin: 0 auto;
+  background: #E8FFEB;
+  border-radius: 12px;
+  padding: 140px 0px 220px 0px;
+}
+
+.content_block_two .content-box{
+  position: relative;
+  display: block;
+}
+
+.content_block_two .content-box .sec-title{
+  padding-bottom: 60px;
+  border-bottom: 1px solid #CAE7CE;
+}
+
+.content_block_two .content-box .sec-title h2{
+  margin-bottom: 44px;
+}
+
+.content_block_two .content-box .inner-box{
+  position: relative;
+  display: block;
+  padding-right: 335px;
+}
+
+.content_block_two .content-box .inner-box .image-box{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.content_block_two .content-box .inner-box .image-box img{
+  width: 100%;
+}
+
+.content_block_two .content-box .inner-box .single-item{
+  position: relative;
+  display: block;
+  padding-left: 95px;
+  margin-bottom: 50px;
+}
+
+.content_block_two .content-box .inner-box .single-item:last-child{
+  margin-bottom: 0px;
+}
+
+.content_block_two .content-box .inner-box .single-item .icon-box{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 55px;
+  color: #266FFC;
+}
+
+.content_block_two .content-box .inner-box .single-item:nth-child(2) .icon-box{
+  color: #FC8A29;
+}
+
+.content_block_two .content-box .inner-box .single-item:nth-child(3) .icon-box{
+  color: #EB29FC;
+}
+
+.content_block_two .content-box .inner-box .single-item h3{
+  display: block;
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 15px;
+}
+
+.content_block_two .content-box .inner-box .single-item h3 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.content_block_two .content-box .inner-box .single-item h3 a:hover{
+  color: var(--theme-color);
+}
+
+.content_block_three .content-box{
+  position: relative;
+  display: block;
+}
+
+.content_block_three .content-box .image-box{
+  position: relative;
+  display: block;
+  border-radius: 12px;
+}
+
+.content_block_three .content-box .image-box img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.content_block_three .content-box .big-text{
+  position: absolute;
+  top: 90px;
+  right: 35px;
+  font-size: 350px;
+  line-height: 350px;
+  font-weight: 700;
+  color: #fff;
+  writing-mode: vertical-lr;
+}
+
+.skills-section .pattern-layer .pattern-1{
+  position: absolute;
+  left: 90px;
+  top: 317px;
+  width: 39px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.skills-section .pattern-layer .pattern-2{
+  position: absolute;
+  right: 260px;
+  bottom: 90px;
+  width: 30px;
+  height: 42px;
+  background-repeat: no-repeat;
+}
+
+.skills-section .pattern-layer .pattern-3{
+  position: absolute;
+  left: 395px;
+  bottom: 90px;
+  width: 165px;
+  height: 54px;
+  background-repeat: no-repeat;
+}
+
+.skills-section .pattern-layer .pattern-4{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  width: 415px;
+  height: 822px;
+  background-repeat: no-repeat;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .content_block_two .content-box .inner-box .single-item{
+  padding-left: 0px;
+  padding-right: 95px;
+}
+
+.rtl .content_block_two .content-box .inner-box .single-item .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .content_block_two .content-box .inner-box{
+  padding-right: 0px;
+  padding-left: 335px;
+}
+
+.rtl .content_block_two .content-box .inner-box .image-box{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .content_block_two .content-box{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+  .content_block_two .content-box .inner-box{
+    padding-right: 0px;
+  }
+
+  .rtl .content_block_two .content-box .inner-box{
+    padding-left: 0px;
+  }
+
+  .content_block_two .content-box .inner-box .image-box{
+    position: relative;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .content_block_two .content-box{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .rtl .content_block_two .content-box{
+    margin-left: 0px;
+  }
+
+  .content_block_three .content-box .big-text{
+    display: none;
+  }
+
+  .content_block_three .content-box{
+    margin-left: 0px;
+  }
+
+  .skills-section .outer-container{
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .skills-section .outer-container{
+    padding: 60px 0px 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

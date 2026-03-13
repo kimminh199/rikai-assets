@@ -1,0 +1,213 @@
+
+/** domain-section **/
+
+.domain-section{
+  position: relative;
+}
+
+.domain-section .inner-container{
+  position: relative;
+  max-width: 1070px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 45px 0px rgba(0, 0, 0, 0.05);
+  margin-top: -72px;
+  padding: 60px 70px 56px 70px;
+}
+
+.domain-section .text-box h2{
+  font-size: 37px;
+  line-height: 46px;
+  margin-bottom: 8px;
+}
+
+.domain-section .form-inner form{
+  position: relative;
+  padding-right: 215px;
+}
+
+.domain-section .form-inner .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.domain-section .form-inner .form-group input[type='search']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #D9D9D9;
+  border-radius: 100px;
+  font-size: 17px;
+  color: rgba(81, 81, 81, 0.70);
+  padding: 10px 120px 10px 35px;
+  transition: all 500ms ease;
+}
+
+.domain-section .form-inner .message-btn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.domain-section .form-inner .message-btn .theme-btn{
+  width: 196px;
+  padding: 20px 30px;
+  border-radius: 100px;
+}
+
+.domain-section .form-inner .form-group .select-box{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 104px;
+  height: 70px;
+  line-height: 70px;
+  z-index: 9;
+}
+
+.domain-section .form-inner .form-group .select-box .nice-select{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+.domain-section .form-inner .form-group .select-box .nice-select:before{
+  position: absolute;
+  content: '\e911';
+  font-family: 'icomoon';
+  font-size: 13px;
+  top: 1px;
+  right: 37px;
+}
+
+.domain-section .owl-carousel .owl-stage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.domain-section .list-item li{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 17px;
+  line-height: 26px;
+  color: #515151;
+  font-weight: 700;
+}
+
+.domain-section .list-item li:before{
+  position: absolute;
+  content: '';
+  background: #D9D9D9;
+  width: 1px;
+  height: 22px;
+  top: 2px;
+  right: 0px;
+}
+
+
+/** rtl-css **/
+
+.rtl .domain-section .form-inner .form-group .select-box{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .domain-section .form-inner .form-group .select-box .nice-select:before{
+  right: inherit;
+  left: 37px;
+}
+
+.rtl .domain-section .form-inner .form-group input[type='search']{
+  padding-right: 35px;
+  padding-left: 120px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .domain-section .inner-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .domain-section .form-inner form{
+    padding-right: 0px;
+  }
+
+  .domain-section .form-inner .message-btn{
+    position: relative;
+  }
+
+  .domain-section .form-inner .message-btn .theme-btn{
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

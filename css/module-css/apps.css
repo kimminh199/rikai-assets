@@ -1,0 +1,196 @@
+
+/** apps-section **/
+
+.apps-section{
+  position: relative;
+}
+
+.apps-section .outer-container{
+  position: relative;
+  background: rgba(239, 181, 128, 0.10);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.content_block_eight .content-box{
+  position: relative;
+  display: block;
+}
+
+.content_block_eight .content-box p{
+  margin-bottom: 40px;
+}
+
+.content_block_eight .content-box .list-style-one li{
+  float: left;
+  width: 50%;
+}
+
+.content_block_eight .content-box .list-style-one li:before{
+  color: #9680EF;
+}
+
+.content_block_eight .content-box .btn-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.content_block_eight .content-box .btn-box a{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  color: var(--title-color);
+  border: 1px solid #D9D9D9;
+  border-radius: 12px;
+  padding: 9px 25px 11px 75px;
+  background: #fff;
+}
+
+.content_block_eight .content-box .btn-box a i{
+  position: absolute;
+  left: 24px;
+  top: 16px;
+  font-size: 30px;
+}
+
+.content_block_eight .content-box .btn-box a span{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.content_block_eight .content-box .btn-box a:hover{
+  color: #fff;
+  background: #1D1D1D;
+  border-color: #1D1D1D;
+}
+
+.apps-section .image-layer{
+  position: absolute;
+  right: 313px;
+  bottom: 0px;
+}
+
+.apps-section .pattern-layer{
+  position: absolute;
+  right: 0px;
+  bottom: -300px;
+  width: 1097px;
+  height: 908px;
+  background-repeat: no-repeat;
+}
+
+
+/** rtl-css **/
+
+.rtl .apps-section .image-layer{
+  right: inherit;
+  left: 313px;
+}
+
+.rtl .apps-section .pattern-layer{
+  right: inherit;
+  left: 0px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+  .apps-section .image-layer{
+    right: 0px;
+  }
+
+  .rtl .apps-section .image-layer{
+    left: 0px;
+  }
+
+  .apps-section{
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .apps-section .image-layer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .apps-section .outer-container{
+    padding: 65px 0px 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .content_block_eight .content-box .list-style-one li{
+    float: none;
+    width: 100%;
+  }
+
+  .content_block_eight .content-box .btn-box{
+    display: block;
+  }
+
+  .content_block_eight .content-box .btn-box .apple-store{
+    margin-bottom: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

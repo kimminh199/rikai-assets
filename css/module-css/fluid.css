@@ -1,0 +1,250 @@
+
+/** fluid-section **/
+
+.fluid-section{
+  position: relative;
+}
+
+.fluid-section .left-column{
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.fluid-section .right-column{
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+.fluid-section .left-column .content-box{
+  background: -webkit-linear-gradient(180deg, #FAF4B8 0%, #FFFDE7 100%);
+}
+
+.fluid-section .right-column .content-box{
+  background: -webkit-linear-gradient(180deg, #B9EFB5 0%, #E9FDCF 100%);
+}
+
+.fluid-section .content-box{
+  position: relative;
+  padding: 70px 30px 76px 140px;
+}
+
+.fluid-section .content-box .text-box{
+  position: relative;
+  max-width: 370px;
+}
+
+.fluid-section .content-box .text-box h3{
+  display: block;
+  font-size: 28px;
+  line-height: 39px;
+  margin-bottom: 15px;
+}
+
+.fluid-section .content-box .text-box p{
+  margin-bottom: 43px;
+}
+
+.fluid-section .left-column .content-box .text-box .theme-btn{
+  background: #FFDE2F;
+  color: var(--title-color) !important;
+  padding: 15px 50px;
+}
+
+.fluid-section .left-column .content-box .text-box .theme-btn:hover{
+  color: #fff !important;
+}
+
+.fluid-section .right-column .content-box .text-box .theme-btn{
+  background: #228B22;
+}
+
+.fluid-section .content-box .shape{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fluid-section .icon-layer .icon-three{
+  position: absolute;
+  left: 51%;
+  bottom: 40px;
+  z-index: 1;
+}
+
+
+/** fluid-section-two **/
+
+.fluid-section-two{
+  position: relative;
+}
+
+.fluid-section-two .left-column{
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.fluid-section-two .right-column{
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+.fluid-section-two .content-box{
+  position: relative;
+  padding: 86px 120px 88px 150px;
+  background: -webkit-linear-gradient(-60deg, #0D0328 10%, #9680EF 100%);
+}
+
+.fluid-section-two .content-box .inner-box{
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+.fluid-section-two .content-box .inner-box .inner{
+  max-width: 390px;
+}
+
+.fluid-section-two .content-box .inner-box h3{
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 31px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.fluid-section-two .content-box .inner-box p{
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.fluid-section-two .content-box .inner-box .theme-btn{
+  border-radius: 50px;
+  width: 196px;
+}
+
+.fluid-section-two .content-box .inner-box .theme-btn:hover{
+  color: var(--theme-color) !important;
+}
+
+.fluid-section-two .content-box .inner-box .theme-btn:before,
+.fluid-section-two .content-box .inner-box .theme-btn:after{
+  background: #fff;
+}
+
+.fluid-section-two .content-box .shape{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/** rtl-css **/
+
+.rtl .fluid-section .content-box .image-box{
+  right: inherit;
+  left: 80px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+  .fluid-section .content-box .image-box{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .fluid-section .content-box{
+    padding-left: 30px;
+  }
+
+  .fluid-section-two .content-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .fluid-section .left-column,
+  .fluid-section .right-column,
+  .fluid-section-two .left-column,
+  .fluid-section-two .right-column{
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .fluid-section-two .content-box .inner-box{
+    display: block;
+  }
+
+  .fluid-section-two .content-box .inner-box .icon-box{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

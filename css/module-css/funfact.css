@@ -1,0 +1,126 @@
+
+/** funfact-section **/
+
+.funfact-section{
+  position: relative;
+}
+
+.funfact-block-two .inner-box{
+  position: relative;
+  display: block;
+  padding-bottom: 40px;
+  border-bottom: 4px solid #4D8AD4;
+}
+
+.funfact-block-two .inner-box .count-outer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: var(--title-font);
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 6px;
+}
+
+.funfact-block-two .inner-box p{
+  color: var(--title-color);
+}
+
+.funfact-block:nth-child(2) .funfact-block-two .inner-box{
+  border-color: #228B22;
+}
+
+.funfact-block:nth-child(3) .funfact-block-two .inner-box{
+  border-color: #FFDE2F;
+}
+
+.funfact-block:nth-child(4) .funfact-block-two .inner-box{
+  border-color: #4D8AD4;
+}
+
+.funfact-block-two .inner-box .count-outer .symble{
+  position: relative;
+  top: -6px;
+}
+
+
+/** rtl-css **/
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .funfact-block-two .inner-box{
+    margin-bottom: 30px;
+  }
+
+  .funfact-section.pb_225{
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
