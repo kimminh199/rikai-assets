@@ -2,7 +2,7 @@
 ;(function(factory) {
   'use strict';
 
-  if (typeof define === 'function' && define.amd) {
+  if (typeof define === 'function' && define.amd && false) {
     define(['jquery'], factory);
   } else {
     factory(jQuery);
