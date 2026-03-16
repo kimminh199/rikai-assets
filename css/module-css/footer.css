@@ -25,6 +25,38 @@
   gap: 31px;
 }
 
+.main-footer .footer-top .footer-info{
+  position: relative;
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.main-footer .footer-top .footer-info .info-column{
+  position: relative;
+}
+
+.main-footer .footer-top .footer-info .info-column h6{
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: var(--title-color);
+}
+
+.main-footer .footer-top .footer-info .info-column p{
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.main-footer .footer-top .footer-info .info-column p strong{
+  color: var(--title-color);
+}
+
 .main-footer .footer-top .social-links li{
   position: relative;
   display: inline-block;
