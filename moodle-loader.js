@@ -5,6 +5,13 @@
 
     const base = "https://cdn.jsdelivr.net/gh/kimminh199/rikai-assets@latest/";
 
+    /* FIX BASE PATH */
+
+    const baseTag = document.createElement("base");
+    baseTag.href = base;
+    document.head.appendChild(baseTag);
+
+
     /* LOAD CSS */
 
     const styles = [
@@ -41,7 +48,7 @@
     });
 
 
-    /* LOAD LANDING PAGE */
+    /* LOAD HTML */
 
     fetch(base + "index.html")
         .then(res => res.text())
@@ -53,6 +60,7 @@
             let wrapper = doc.querySelector(".boxed_wrapper");
 
             document.body.prepend(wrapper);
+
 
             /* LOAD JS */
 
