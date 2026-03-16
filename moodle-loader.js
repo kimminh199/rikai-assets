@@ -8,15 +8,29 @@
     /* LOAD CSS */
 
     const styles = [
-        "css/bootstrap.css",
-        "css/style.css",
-        "css/responsive.css",
         "css/font-awesome-all.css",
         "css/flaticon.css",
         "css/owl.css",
+        "css/bootstrap.css",
+        "css/jquery.fancybox.min.css",
         "css/animate.css",
         "css/nice-select.css",
-        "css/odometer.css"
+        "css/odometer.css",
+        "css/elpath.css",
+        "css/rtl.css",
+        "css/style.css",
+        "css/module-css/header.css",
+        "css/module-css/banner.css",
+        "css/module-css/about.css",
+        "css/module-css/service.css",
+        "css/module-css/skills.css",
+        "css/module-css/portfolio.css",
+        "css/module-css/testimonial.css",
+        "css/module-css/pricing.css",
+        "css/module-css/news.css",
+        "css/module-css/subscribe.css",
+        "css/module-css/footer.css",
+        "css/responsive.css"
     ];
 
     styles.forEach(file => {
