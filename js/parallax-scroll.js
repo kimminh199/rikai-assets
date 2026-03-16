@@ -1,5 +1,7 @@
 jQuery(function() {
-    ParallaxScroll.init();
+    if (typeof ParallaxScroll !== 'undefined' && ParallaxScroll.init) {
+        ParallaxScroll.init();
+    }
 });
 
 var ParallaxScroll = {
