@@ -100,7 +100,7 @@
 
  .large-container {
    max-width: 1705px;
-   padding: 0px 15px;
+   padding: 5px 15px;
    margin: 0 auto;
  }
 
@@ -391,6 +391,10 @@
    transition-timing-function: ease-in-out;
    transition-duration: .7s;
    transition-property: all;
+ }
+
+ .logo_size {
+   width: 150px;
  }
 
  .row {
