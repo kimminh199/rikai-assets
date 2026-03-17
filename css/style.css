@@ -385,7 +385,7 @@
 
  img {
    display: inline-block;
-   max-width: 50%;
+   max-width: 100%;
    height: auto;
    transition-delay: .1s;
    transition-timing-function: ease-in-out;
