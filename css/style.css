@@ -393,6 +393,10 @@
    transition-property: all;
  }
 
+ .logo_size {
+   width: 100px;
+ }
+
  .row {
    --bs-gutter-x: 30px;
  }
