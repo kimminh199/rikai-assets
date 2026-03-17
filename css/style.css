@@ -100,7 +100,7 @@
 
  .large-container {
    max-width: 1705px;
-   padding: 0px 15px;
+   padding: 5px 15px;
    margin: 0 auto;
  }
 
@@ -385,7 +385,7 @@
 
  img {
    display: inline-block;
-   max-width: 100%;
+   max-width: 50%;
    height: auto;
    transition-delay: .1s;
    transition-timing-function: ease-in-out;
